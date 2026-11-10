@@ -18,6 +18,7 @@
 ## Array
 |  |
 | ------- |
+| [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
 | [1046-last-stone-weight](https://github.com/azhang479/LeetCodes/tree/master/1046-last-stone-weight) |
 ## Heap (Priority Queue)
 |  |
@@ -31,6 +32,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/azhang479/LeetCodes/tree/master/0070-climbing-stairs) |
+| [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
 ## Memoization
 |  |
 | ------- |
