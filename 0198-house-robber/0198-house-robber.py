@@ -18,12 +18,24 @@ class Solution:
             return max(nums[0], nums[1])
         if len(nums) == 3:
             return max(nums[0] + nums[2], nums[1])
-        val = [0] * len(nums)
-        val[0] = nums[0]
-        val[1] = nums[1]
-        val[2] = nums[2] + nums[0]
+        #val = [0] * len(nums)
+        #val[0] = nums[0]
+        #val[1] = nums[1]
+        #val[2] = nums[2] + nums[0]
         
-        for i in range(3, len(nums)):
-            val[i] = max(val[i-2], val[i-3]) + nums[i]
+        #for i in range(3, len(nums)):
+        #    val[i] = max(val[i-2], val[i-3]) + nums[i]
 
-        return max(val[-1], val[-2])
+        #return max(val[-1], val[-2])
+
+
+        #Unrolled loop using variables:
+        a, b, c = nums[0], nums[1], nums[0] + nums[2]
+
+        for i in range(3, len(nums)):
+            temp = c
+            c = max(a, b) + nums[i]
+            a = b
+            b = temp
+
+        return max(b, c)
