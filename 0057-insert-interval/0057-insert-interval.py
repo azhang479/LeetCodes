@@ -43,7 +43,5 @@ class Solution:
 
         newIntervals.append([currStart, maxEnd])
 
-        print(f"currStart: {currStart}, maxEnd: {maxEnd}, intervals: {intervals}")
-
         return newIntervals
 
