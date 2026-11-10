@@ -24,6 +24,7 @@ class Solution:
                     newIntervals.append([currStart, maxEnd])
                     maxEnd = newInterval[1]
                     currStart = newInterval[0]
+                newAdded = True
 
             if interval[0] <= maxEnd:
                 maxEnd = max(maxEnd, interval[1])
