@@ -17,12 +17,14 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/azhang479/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/azhang479/LeetCodes/tree/master/0242-valid-anagram) |
+| [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
 ## Array
 |  |
 | ------- |
 | [0057-insert-interval](https://github.com/azhang479/LeetCodes/tree/master/0057-insert-interval) |
 | [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/azhang479/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
+| [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/azhang479/LeetCodes/tree/master/0496-next-greater-element-i) |
 | [1046-last-stone-weight](https://github.com/azhang479/LeetCodes/tree/master/1046-last-stone-weight) |
 ## Heap (Priority Queue)
@@ -51,6 +53,7 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/azhang479/LeetCodes/tree/master/0141-linked-list-cycle) |
+| [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -71,4 +74,12 @@
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/azhang479/LeetCodes/tree/master/0496-next-greater-element-i) |
+## Greedy
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
+## Quicksort
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
