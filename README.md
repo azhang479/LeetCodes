@@ -18,6 +18,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/azhang479/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/azhang479/LeetCodes/tree/master/0242-valid-anagram) |
 | [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/azhang479/LeetCodes/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Array
 |  |
 | ------- |
@@ -27,6 +28,7 @@
 | [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/azhang479/LeetCodes/tree/master/0496-next-greater-element-i) |
 | [1046-last-stone-weight](https://github.com/azhang479/LeetCodes/tree/master/1046-last-stone-weight) |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/azhang479/LeetCodes/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -54,6 +56,7 @@
 | ------- |
 | [0141-linked-list-cycle](https://github.com/azhang479/LeetCodes/tree/master/0141-linked-list-cycle) |
 | [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/azhang479/LeetCodes/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -78,6 +81,7 @@
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/azhang479/LeetCodes/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Quicksort
 |  |
 | ------- |
