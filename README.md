@@ -6,11 +6,13 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/azhang479/LeetCodes/tree/master/0141-linked-list-cycle) |
+| [0208-implement-trie-prefix-tree](https://github.com/azhang479/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/azhang479/LeetCodes/tree/master/0242-valid-anagram) |
 | [0496-next-greater-element-i](https://github.com/azhang479/LeetCodes/tree/master/0496-next-greater-element-i) |
 ## String
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/azhang479/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/azhang479/LeetCodes/tree/master/0242-valid-anagram) |
 ## Sorting
 |  |
@@ -129,4 +131,12 @@
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/azhang479/LeetCodes/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Design
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/azhang479/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/azhang479/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
