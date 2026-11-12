@@ -96,6 +96,7 @@
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/azhang479/LeetCodes/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/azhang479/LeetCodes/tree/master/0543-diameter-of-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/azhang479/LeetCodes/tree/master/1971-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
@@ -115,11 +116,13 @@
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/azhang479/LeetCodes/tree/master/0102-binary-tree-level-order-traversal) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/azhang479/LeetCodes/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/azhang479/LeetCodes/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/azhang479/LeetCodes/tree/master/0102-binary-tree-level-order-traversal) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/azhang479/LeetCodes/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/azhang479/LeetCodes/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -141,4 +144,8 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/azhang479/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
+## DP on Trees
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/azhang479/LeetCodes/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
