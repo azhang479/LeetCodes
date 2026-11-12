@@ -30,9 +30,7 @@ class Trie:
                 current = current[letter]
             else:
                 return False
-        if "end" in current:
-            return True
-        return False
+        return ("end" in current)
 
     #O(w), go through all letters of the prefix. If we reach the end and dont encounter a not in, then it is a prefix
     def startsWith(self, prefix: str) -> bool:
