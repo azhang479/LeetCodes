@@ -30,6 +30,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/azhang479/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/azhang479/LeetCodes/tree/master/0496-next-greater-element-i) |
+| [0875-koko-eating-bananas](https://github.com/azhang479/LeetCodes/tree/master/0875-koko-eating-bananas) |
 | [1046-last-stone-weight](https://github.com/azhang479/LeetCodes/tree/master/1046-last-stone-weight) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/azhang479/LeetCodes/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Heap (Priority Queue)
@@ -123,6 +124,7 @@
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/azhang479/LeetCodes/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0875-koko-eating-bananas](https://github.com/azhang479/LeetCodes/tree/master/0875-koko-eating-bananas) |
 ## Binary Lifting
 |  |
 | ------- |
