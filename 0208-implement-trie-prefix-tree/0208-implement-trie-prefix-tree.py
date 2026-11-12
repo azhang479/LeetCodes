@@ -12,12 +12,10 @@ class Trie:
         #For each letter, check if it is in the current nested tree branch
         for letter in word:
             #If it is, continue searching down letter by letter
-            if letter in current:
-                current = current[letter]
-            #We have reached the end or a split, add in a spot for the last letter and swap over to it incase there are more letters
-            else:
+            if letter not in current:
                 current[letter] = {}
-                current = current[letter]
+            #We have reached the end or a split, add in a spot for the last letter and swap over to it incase there are more letters
+            current = current[letter]
         #At the end, we have to also assign and "end" special character to know we've inserted a word that ends here
         #Since we only insert singular letters, we can just use the word "end"
         current["end"] = True
