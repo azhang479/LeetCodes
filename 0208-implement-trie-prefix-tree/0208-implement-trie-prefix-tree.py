@@ -2,27 +2,47 @@ class Trie:
 
     #O(1) using a set
     def __init__(self):
-        self.trieDict = set()
-        self.prefixDict = set()
+        self.trie = {}
 
-    #O(1) using a set
-    #Also insert the prefixes, O(w) where w is word length
+    #Use a dict with root connecting to all first letters
+    #Insertion adds in the letters working down the tree.
+    #O(w) time for letters
     def insert(self, word: str) -> None:
-        self.trieDict.add(word)
-        totalLength = len(word)
-        for i in range(totalLength):
-            self.prefixDict.add(word[:totalLength - i])
+        current = self.trie
+        #For each letter, check if it is in the current nested tree branch
+        for letter in word:
+            #If it is, continue searching down letter by letter
+            if letter in current:
+                current = current[letter]
+            #We have reached the end or a split, add in a spot for the last letter and swap over to it incase there are more letters
+            else:
+                current[letter] = {}
+                current = current[letter]
+        #At the end, we have to also assign and "end" special character to know we've inserted a word that ends here
+        #Since we only insert singular letters, we can just use the word "end"
+        current["end"] = True
 
-    #O(1) using a set
+    #O(w) time for searching down the letters
     def search(self, word: str) -> bool:
-        return (word in self.trieDict)
+        current = self.trie
+        for letter in word:
+            if letter in current:
+                current = current[letter]
+            else:
+                return False
+        if "end" in current:
+            return True
+        return False
 
-    #O(n) startsWith, just check through all the words
-    #we could maybe do a lower bound by inserting all the prefixes for a word on each word but space tradeoff
-    #O(1) with the prefix dict
+    #O(w), go through all letters of the prefix. If we reach the end and dont encounter a not in, then it is a prefix
     def startsWith(self, prefix: str) -> bool:
-        return (prefix in self.prefixDict)        
-
+        current = self.trie
+        for letter in prefix:
+            if letter in current:
+                current = current[letter]
+            else:
+                return False
+        return True
 
 # Your Trie object will be instantiated and called as such:
 # obj = Trie()
