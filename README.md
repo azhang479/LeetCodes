@@ -26,6 +26,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/azhang479/LeetCodes/tree/master/0053-maximum-subarray) |
 | [0057-insert-interval](https://github.com/azhang479/LeetCodes/tree/master/0057-insert-interval) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/azhang479/LeetCodes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/azhang479/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
@@ -43,6 +44,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/azhang479/LeetCodes/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/azhang479/LeetCodes/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -82,6 +84,7 @@
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/azhang479/LeetCodes/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/azhang479/LeetCodes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0496-next-greater-element-i](https://github.com/azhang479/LeetCodes/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/azhang479/LeetCodes/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
