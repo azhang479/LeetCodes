@@ -29,6 +29,7 @@
 | [0057-insert-interval](https://github.com/azhang479/LeetCodes/tree/master/0057-insert-interval) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/azhang479/LeetCodes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/azhang479/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/azhang479/LeetCodes/tree/master/0496-next-greater-element-i) |
@@ -105,6 +106,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/azhang479/LeetCodes/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/azhang479/LeetCodes/tree/master/0543-diameter-of-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/azhang479/LeetCodes/tree/master/1971-find-if-path-exists-in-graph) |
@@ -112,10 +114,12 @@
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/azhang479/LeetCodes/tree/master/0102-binary-tree-level-order-traversal) |
+| [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
 | [1971-find-if-path-exists-in-graph](https://github.com/azhang479/LeetCodes/tree/master/1971-find-if-path-exists-in-graph) |
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
 | [1971-find-if-path-exists-in-graph](https://github.com/azhang479/LeetCodes/tree/master/1971-find-if-path-exists-in-graph) |
 ## Graph Theory
 |  |
@@ -163,4 +167,8 @@
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/azhang479/LeetCodes/tree/master/0143-reorder-list) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
