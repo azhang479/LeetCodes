@@ -24,17 +24,15 @@ class Solution:
         #Sorted sorts by the first in the tuple
         #zip(*...) unzips into multiple tuples
         #Cast them back into list
-        sorted_pos, sorted_speed = zip(*sorted(zip(position, speed), reverse=True))
-        sorted_pos = list(sorted_pos)
-        sorted_speed = list(sorted_speed)
+        zipped = sorted(zip(position, speed), reverse=True)
 
         #how many time units left until the target
         totalFleets = 0
         currMax = 0
 
-        for i in range(len(sorted_pos)):
-            distance = target - sorted_pos[i]
-            timeUnits = distance / sorted_speed[i]
+        for i in range(len(zipped)):
+            distance = target - zipped[i][0]
+            timeUnits = distance / zipped[i][1]
             
             if (timeUnits > currMax):
                 totalFleets += 1
