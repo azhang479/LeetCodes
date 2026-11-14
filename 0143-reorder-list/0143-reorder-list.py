@@ -20,12 +20,8 @@ class Solution:
         #Find the middle
         slow = head
         fast = head
-        #If 1 node, just return head
-        if not head.next:
-            return head
-
-        #Only 2 nodes, flip them and return
-        if not head.next.next:
+        #If 1 or 2 nodes, just return head
+        if not head.next or not head.next.next:
             return head
             
         while fast and fast.next:
