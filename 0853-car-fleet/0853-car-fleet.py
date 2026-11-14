@@ -29,18 +29,16 @@ class Solution:
         sorted_speed = list(sorted_speed)
 
         #how many time units left until the target
-        timeUnits = []
+        totalFleets = 0
+        currMax = 0
+
         for i in range(len(sorted_pos)):
             distance = target - sorted_pos[i]
-            timeUnits.append(distance / sorted_speed[i])
-
-        currMax = timeUnits[0]
-        totalFleets = 1
-        for unit in timeUnits:
-            if unit <= currMax:
-                continue
-            totalFleets += 1
-            currMax = unit
+            timeUnits = distance / sorted_speed[i]
+            
+            if (timeUnits > currMax):
+                totalFleets += 1
+                currMax = timeUnits
 
         return totalFleets
 
@@ -51,3 +49,5 @@ class Solution:
 
     #I assumed that cars must drive "speed" all at once but this is incorrect.
     #In this example, car 8 will reach before 7, then 6, then 5, then 4, then 3. None simultaneously. 
+    #This is because I rounded time units to a ceil. I think if I don't round it it should work?
+    #Does work
