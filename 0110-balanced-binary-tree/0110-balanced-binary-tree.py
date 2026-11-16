@@ -30,5 +30,4 @@ class Solution:
             return -1
         
         #return our depth
-        print(f"root: {root.val}, depth: {max(l_depth, r_depth) + 1}")
         return max(l_depth, r_depth) + 1
