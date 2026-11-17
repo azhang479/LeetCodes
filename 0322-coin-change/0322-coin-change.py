@@ -13,11 +13,6 @@ class Solution:
         amounts = [float('inf')] * (amount + 1)
         amounts[0] = 0
         #If the coin can make the exact change, then it is possible. Else, it is infinite since we're doing min
-        for coin in coins:
-            if coin < len(amounts):
-                if coin % amount == 0:
-                    amounts[coin] = coin // amount
-
         for i in range(1, len(amounts)):
             for coin in coins:
                 currCheck = i - coin
