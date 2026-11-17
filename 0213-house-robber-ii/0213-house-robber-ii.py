@@ -1,33 +1,42 @@
 class Solution:
     def rob(self, nums: list[int]) -> int:
-        #Create a DP array, [nx1] where each cell i is max money you can steal at that house
-        #This is either the value of 2 houses before it + itself or the max of the house value before it, which assumes we dont steal our house. Whatever is max 
+        #Break the last house (no more circle)
+        #Have 2 lists, max value for must choose house, max value for must not choose house
+        #If choose first house, last house means you cant choose the first house
+        #If not choose first house, we can freely choose the last one
 
-        #We can disconnect the last house, and do hosue robber on the rest of the houses
-        #We could have a [nx2] matrix to also mark which houses were chosen
-
+        if not nums:
+            return 0
         if len(nums) == 1:
             return nums[0]
-        elif len(nums) == 2:
-            return max(nums[0], nums[1])
-        
-        #houses is strictly including first house
-        #housesN is strictly not including first house
-        houses = [0] * len(nums)
-        housesN = [0] * len(nums)
-        houses[0] = nums[0]
-        housesN[0] = 0
-        houses[1] = nums[0]
-        housesN[1] = nums[1]
+        if len(nums) == 2:
+            return max(nums[1],nums[0])
+        #For not choosing the first house, max value starts at max(house1, house2)
+        #Then, recursion is maxN = max(house-2 + house, house-1) starting at house 3
+        maxNL = nums[1]
+        maxNR = max(nums[1], nums[2])
+        #max NR is the right max, NL is the left max (houses -1 and -2)
+        for i in range(3, len(nums)):
+            temp = maxNR
+            maxNR = max(maxNR, maxNL + nums[i])
+            maxNL = temp
 
-        #save last house to break the loop
-        #Keep a count if the first house has been robbed
+        maxCL = nums[0]
+        maxCR = max(nums[0], nums[1])
+        #max NR is the right max, NL is the left max (houses -1 and -2)
         for i in range(2, len(nums)):
-            houses[i] = max(houses[i-1], houses[i-2] + nums[i])
-            housesN[i] = max(housesN[i-1], housesN[i-2] + nums[i])
+            temp = maxCR
+            maxCR = max(maxCR, maxCL + nums[i])
+            maxCL = temp
+        
+        #maxCL is max of choosing house 1, not choosing last house yet
+        #maxCR is the max of choosing last house and house 1, 
+        #maxNR is the max of not choosing house 1, possibly choosing last house
+        #maxNR should be equal to max CR - house 1
 
-        #max value is houses[-2] or houses[-3] (strictly including first house means not including last house), or housesN[-1] or housesN[-2]
+        #total max would be max(maxCL, maxNR)
+        return max(maxCL, maxNR)
 
-        return max(houses[-2], houses[-3], housesN[-1], housesN[-2])
+
 
         
