@@ -21,10 +21,12 @@ class Solution:
     def DFS(self, root, k):
         if not root:
             return
-        if self.counter > k:
+        if self.counter >= k:
             return 
         
         self.DFS(root.left, k)
+        if self.counter >= k:
+            return 
 
         self.counter += 1
         if self.counter == k:
