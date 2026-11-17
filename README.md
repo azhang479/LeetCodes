@@ -12,6 +12,7 @@
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/azhang479/LeetCodes/tree/master/0005-longest-palindromic-substring) |
 | [0208-implement-trie-prefix-tree](https://github.com/azhang479/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/azhang479/LeetCodes/tree/master/0242-valid-anagram) |
 ## Sorting
@@ -57,6 +58,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/azhang479/LeetCodes/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/azhang479/LeetCodes/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/azhang479/LeetCodes/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
@@ -75,6 +77,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/azhang479/LeetCodes/tree/master/0005-longest-palindromic-substring) |
 | [0141-linked-list-cycle](https://github.com/azhang479/LeetCodes/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/azhang479/LeetCodes/tree/master/0143-reorder-list) |
 | [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
@@ -205,4 +208,8 @@
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/azhang479/LeetCodes/tree/master/0322-coin-change) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/azhang479/LeetCodes/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
