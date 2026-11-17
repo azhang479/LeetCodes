@@ -31,6 +31,7 @@
 | [0053-maximum-subarray](https://github.com/azhang479/LeetCodes/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/azhang479/LeetCodes/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/azhang479/LeetCodes/tree/master/0057-insert-interval) |
+| [0074-search-a-2d-matrix](https://github.com/azhang479/LeetCodes/tree/master/0074-search-a-2d-matrix) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/azhang479/LeetCodes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
@@ -168,6 +169,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/azhang479/LeetCodes/tree/master/0033-search-in-rotated-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/azhang479/LeetCodes/tree/master/0074-search-a-2d-matrix) |
 | [0098-validate-binary-search-tree](https://github.com/azhang479/LeetCodes/tree/master/0098-validate-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/azhang479/LeetCodes/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0875-koko-eating-bananas](https://github.com/azhang479/LeetCodes/tree/master/0875-koko-eating-bananas) |
@@ -199,6 +201,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/azhang479/LeetCodes/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
 ## Knapsack Problem
 |  |
