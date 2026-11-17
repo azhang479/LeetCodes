@@ -21,12 +21,14 @@ class Solution:
     def DFS(self, root, k):
         if not root:
             return
+        if self.counter > k:
+            return 
         
         self.DFS(root.left, k)
 
         self.counter += 1
         if self.counter == k:
             self.val = root.val
-        
+                
         self.DFS(root.right, k)
         return
