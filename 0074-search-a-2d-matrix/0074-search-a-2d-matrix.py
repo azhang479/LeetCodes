@@ -13,7 +13,6 @@ class Solution:
             #since matrix[l][0] < target < matrix[r][0] can be true in multiple circumstances, we can search until matrix[l][0] < target and matrix[r][0] < target and r - l == 1
             midpoint = (r - l) // 2 + l
 
-            print(f"midpoint: {midpoint}, r: {r}, l: {l}")
             if matrix[midpoint][0] == target:
                 return True
             
