@@ -8,19 +8,21 @@ class Solution:
         for i, row in enumerate(board):
             for j, letter in enumerate(row):
                 if letter == word[0]:
-                    if self.DFS(i, j, board, word, 1, set()):
+                    temp = board[i][j]
+                    board[i][j] = "#"
+                    if self.DFS(i, j, board, word, 1):
                         return True
+                    board[i][j] = temp
                     
         return self.found
     
-    def DFS(self, i, j, board, word, letter, visited):
+    def DFS(self, i, j, board, word, letter):
         if letter >= len(word):
             self.found = True
             return True
 
         if self.found:
             return True
-        visited.add((i, j))
 
         check = [(0,1), (1,0), (-1,0), (0, -1)]
         for x, y in check:
@@ -32,9 +34,12 @@ class Solution:
                 continue
 
             #check letters that are adjacent, if it matches next letter, recurse in
-            if board[curr_i][curr_j] == word[letter] and (curr_i, curr_j) not in visited:
-                if self.DFS(curr_i, curr_j, board, word, letter + 1, visited.copy()):
+            if board[curr_i][curr_j] == word[letter] and (curr_i, curr_j):
+                temp = board[i][j]
+                board[i][j] = "#"
+                if self.DFS(curr_i, curr_j, board, word, letter + 1):
                     return True
+                board[i][j] = temp
 
         #If queue has run out and we don't have our word, return false
         return False
