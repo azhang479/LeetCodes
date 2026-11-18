@@ -33,6 +33,7 @@
 | [0056-merge-intervals](https://github.com/azhang479/LeetCodes/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/azhang479/LeetCodes/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/azhang479/LeetCodes/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/azhang479/LeetCodes/tree/master/0078-subsets) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/azhang479/LeetCodes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
@@ -230,4 +231,9 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/azhang479/LeetCodes/tree/master/0039-combination-sum) |
+| [0078-subsets](https://github.com/azhang479/LeetCodes/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/azhang479/LeetCodes/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
