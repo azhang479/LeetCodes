@@ -12,4 +12,15 @@ class Solution:
         
         #one last step to reach the top
         last = min(minCost[-1] + cost[-1], minCost[-2] + cost[-2])
-        return last
+
+        #Non DP version can just use past 2 values:
+        #L represents left stair, R represent right stair
+        #Each one stores cost including the cost to step on that stair
+        minCostL = cost[0]
+        minCostR = cost[1]
+        for i in range(2, len(cost)):
+            newMinCost = min(minCostL, minCostR) + cost[i]
+            minCostL = minCostR
+            minCostR = newMinCost
+        
+        return min(minCostL, minCostR)
