@@ -18,5 +18,16 @@ class Solution:
         for i in range(1, m):
             for j in range(1, n):
                 grid[i][j] = grid[i-1][j] + grid[i][j-1]
-        print(grid)
-        return grid[m-1][n-1]
+
+        #space optimized, find min(m, n)
+        #The value can rely on a saved past row/column and the current one. So the value in each slot starts at 1, then is past row/column slot + last slot in current row/column
+
+        minimum = min(m, n)
+        maximum = max(m, n)
+        grid1 = [1] * minimum
+
+        for i in range(1, maximum):
+            for j in range(1, len(grid1)):
+                grid1[j] = grid1[j - 1] + grid1[j]
+        
+        return grid1[-1]
