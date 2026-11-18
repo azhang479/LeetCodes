@@ -20,7 +20,6 @@ class Solution:
         if letter >= len(word):
             return True
 
-
         check = [(0,1), (1,0), (-1,0), (0, -1)]
         for x, y in check:
             curr_i = i + x
@@ -38,6 +37,5 @@ class Solution:
                     return True
                 board[i][j] = temp
 
-        #If queue has run out and we don't have our word, return false
         return False
 
