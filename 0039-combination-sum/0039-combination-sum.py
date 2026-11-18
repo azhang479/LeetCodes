@@ -15,7 +15,7 @@ class Solution:
         #Then remove another 1 from target, check again
         #repeat until target <= 0. No need to check this number again since all combos are used
         #O(n^2 solution)
-        
+        candidates.sort()
         self.stored = []
         
         #For all starting candidates
@@ -31,6 +31,8 @@ class Solution:
             return
         #If we are below 0, there is no valid combo here since we overshot
         if target < 0:
+            return 
+        if candidates[i] > target:
             return 
         #Else, we can recurse down the chain
         self.recurse(i, candidates, currSet + [candidates[i]], target - candidates[i])
