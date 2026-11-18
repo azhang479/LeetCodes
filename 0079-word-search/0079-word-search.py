@@ -33,7 +33,8 @@ class Solution:
 
             #check letters that are adjacent, if it matches next letter, recurse in
             if board[curr_i][curr_j] == word[letter] and (curr_i, curr_j) not in visited:
-                self.DFS(curr_i, curr_j, board, word, letter + 1, visited.copy())
+                if self.DFS(curr_i, curr_j, board, word, letter + 1, visited.copy()):
+                    return True
 
         #If queue has run out and we don't have our word, return false
         return False
