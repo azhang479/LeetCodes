@@ -14,15 +14,12 @@ class Solution:
                         return True
                     board[i][j] = temp
                     
-        return self.found
+        return False
     
     def DFS(self, i, j, board, word, letter):
         if letter >= len(word):
-            self.found = True
             return True
 
-        if self.found:
-            return True
 
         check = [(0,1), (1,0), (-1,0), (0, -1)]
         for x, y in check:
