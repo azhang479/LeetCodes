@@ -13,6 +13,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/azhang479/LeetCodes/tree/master/0005-longest-palindromic-substring) |
+| [0079-word-search](https://github.com/azhang479/LeetCodes/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/azhang479/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/azhang479/LeetCodes/tree/master/0242-valid-anagram) |
 ## Sorting
@@ -34,6 +35,7 @@
 | [0057-insert-interval](https://github.com/azhang479/LeetCodes/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/azhang479/LeetCodes/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/azhang479/LeetCodes/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/azhang479/LeetCodes/tree/master/0079-word-search) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/azhang479/LeetCodes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
@@ -127,6 +129,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/azhang479/LeetCodes/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/azhang479/LeetCodes/tree/master/0098-validate-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/azhang479/LeetCodes/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/azhang479/LeetCodes/tree/master/0199-binary-tree-right-side-view) |
@@ -210,6 +213,7 @@
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/azhang479/LeetCodes/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/azhang479/LeetCodes/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
 ## Knapsack Problem
 |  |
@@ -232,6 +236,7 @@
 | ------- |
 | [0039-combination-sum](https://github.com/azhang479/LeetCodes/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/azhang479/LeetCodes/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/azhang479/LeetCodes/tree/master/0079-word-search) |
 ## Bit Manipulation
 |  |
 | ------- |
