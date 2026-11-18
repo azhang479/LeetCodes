@@ -48,6 +48,7 @@
 | [0746-min-cost-climbing-stairs](https://github.com/azhang479/LeetCodes/tree/master/0746-min-cost-climbing-stairs) |
 | [0853-car-fleet](https://github.com/azhang479/LeetCodes/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/azhang479/LeetCodes/tree/master/0875-koko-eating-bananas) |
+| [0994-rotting-oranges](https://github.com/azhang479/LeetCodes/tree/master/0994-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/azhang479/LeetCodes/tree/master/1046-last-stone-weight) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/azhang479/LeetCodes/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Heap (Priority Queue)
@@ -147,6 +148,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/azhang479/LeetCodes/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/azhang479/LeetCodes/tree/master/0322-coin-change) |
+| [0994-rotting-oranges](https://github.com/azhang479/LeetCodes/tree/master/0994-rotting-oranges) |
 | [1971-find-if-path-exists-in-graph](https://github.com/azhang479/LeetCodes/tree/master/1971-find-if-path-exists-in-graph) |
 ## Union-Find
 |  |
@@ -217,6 +219,7 @@
 | [0074-search-a-2d-matrix](https://github.com/azhang479/LeetCodes/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/azhang479/LeetCodes/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
+| [0994-rotting-oranges](https://github.com/azhang479/LeetCodes/tree/master/0994-rotting-oranges) |
 ## Knapsack Problem
 |  |
 | ------- |
