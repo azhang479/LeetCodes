@@ -32,7 +32,6 @@ class Solution:
                 
             depth += 1
         
-        print(grid)
         max_depth = 2
         #once queue is empty, all squares that have been rotted have rotted. If a 1 exists, then return -1. Else, return the max depth.
         for i in range(len(grid)):
