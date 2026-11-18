@@ -54,6 +54,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/azhang479/LeetCodes/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/azhang479/LeetCodes/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/azhang479/LeetCodes/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/azhang479/LeetCodes/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Dynamic Programming
@@ -61,6 +62,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/azhang479/LeetCodes/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/azhang479/LeetCodes/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/azhang479/LeetCodes/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/azhang479/LeetCodes/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/azhang479/LeetCodes/tree/master/0213-house-robber-ii) |
@@ -219,4 +221,8 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/azhang479/LeetCodes/tree/master/0005-longest-palindromic-substring) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/azhang479/LeetCodes/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
