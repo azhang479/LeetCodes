@@ -28,6 +28,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/azhang479/LeetCodes/tree/master/0033-search-in-rotated-sorted-array) |
+| [0039-combination-sum](https://github.com/azhang479/LeetCodes/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/azhang479/LeetCodes/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/azhang479/LeetCodes/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/azhang479/LeetCodes/tree/master/0057-insert-interval) |
@@ -225,4 +226,8 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/azhang479/LeetCodes/tree/master/0062-unique-paths) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/azhang479/LeetCodes/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
