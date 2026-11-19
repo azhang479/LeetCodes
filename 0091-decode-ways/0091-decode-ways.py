@@ -51,7 +51,7 @@ class Solution:
                     ways[i] = ways[i-1] #on second one, doesnt change the 1 way
                 else:
                     if s[i-1] in ["1", "2"] and s[i-2] in ["1", "2"]:
-                        ways[i] = ways[i-1] - (ways[i-1] - ways[i-2]) #steals the previous number's added ways
+                        ways[i] = ways[i-2] #steals the previous number's added ways, so goes back to i-2
                     elif s[i-1] not in ["1", "2"]:
                         return 0
                     else:
