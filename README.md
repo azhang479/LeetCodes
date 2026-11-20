@@ -34,6 +34,7 @@
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/azhang479/LeetCodes/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/azhang479/LeetCodes/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/azhang479/LeetCodes/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/azhang479/LeetCodes/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/azhang479/LeetCodes/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/azhang479/LeetCodes/tree/master/0057-insert-interval) |
@@ -250,6 +251,7 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/azhang479/LeetCodes/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/azhang479/LeetCodes/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/azhang479/LeetCodes/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/azhang479/LeetCodes/tree/master/0079-word-search) |
 ## Bit Manipulation
