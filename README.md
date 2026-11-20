@@ -7,6 +7,7 @@
 | ------- |
 | [0133-clone-graph](https://github.com/azhang479/LeetCodes/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/azhang479/LeetCodes/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/azhang479/LeetCodes/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/azhang479/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/azhang479/LeetCodes/tree/master/0242-valid-anagram) |
 | [0496-next-greater-element-i](https://github.com/azhang479/LeetCodes/tree/master/0496-next-greater-element-i) |
@@ -22,6 +23,7 @@
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/azhang479/LeetCodes/tree/master/0056-merge-intervals) |
+| [0169-majority-element](https://github.com/azhang479/LeetCodes/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/azhang479/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/azhang479/LeetCodes/tree/master/0242-valid-anagram) |
 | [0455-assign-cookies](https://github.com/azhang479/LeetCodes/tree/master/0455-assign-cookies) |
@@ -39,6 +41,7 @@
 | [0078-subsets](https://github.com/azhang479/LeetCodes/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/azhang479/LeetCodes/tree/master/0079-word-search) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/azhang479/LeetCodes/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0169-majority-element](https://github.com/azhang479/LeetCodes/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/azhang479/LeetCodes/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/azhang479/LeetCodes/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/azhang479/LeetCodes/tree/master/0213-house-robber-ii) |
@@ -103,6 +106,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/azhang479/LeetCodes/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/azhang479/LeetCodes/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/azhang479/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 ## Quickselect
 |  |
@@ -252,4 +256,12 @@
 |  |
 | ------- |
 | [0078-subsets](https://github.com/azhang479/LeetCodes/tree/master/0078-subsets) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/azhang479/LeetCodes/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/azhang479/LeetCodes/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
